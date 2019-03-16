@@ -21,7 +21,7 @@ namespace KMA.ProgrammingInCSharp2019.Practice5.Navigation.Models
         {
             get
             {
-                return _message + ". Email must be like aaa@aaa.aaa";
+                return _message + ". Email must be like aaa@aa.aa";
             }
         }
     }

@@ -1,5 +1,8 @@
-﻿using System.Windows.Controls;
+﻿using System.Windows;
+using System.Windows.Controls;
+using KMA.ProgrammingInCSharp2019.Practice5.Navigation.Models;
 using KMA.ProgrammingInCSharp2019.Practice5.Navigation.Tools.Navigation;
+using KMA.ProgrammingInCSharp2019.Practice5.Navigation.ViewModels.Authentication;
 
 namespace KMA.ProgrammingInCSharp2019.Practice5.Navigation.Views
 {
@@ -8,6 +11,7 @@ namespace KMA.ProgrammingInCSharp2019.Practice5.Navigation.Views
         public MainView()
         {
             InitializeComponent();
+            DataContext = new ResultViewModel();
         }
     }
 }

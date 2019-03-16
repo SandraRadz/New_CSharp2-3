@@ -2,9 +2,8 @@
 {
     internal enum ViewType
     {
-        SignIn,
-        SignUp,
-        Main
+        Start,
+        Result
     }
 
     interface INavigationModel

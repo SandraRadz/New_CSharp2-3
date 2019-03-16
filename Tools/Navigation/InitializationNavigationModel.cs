@@ -1,7 +1,7 @@
 ﻿using System;
+using KMA.ProgrammingInCSharp2019.Practice5.Navigation.Models;
 using KMA.ProgrammingInCSharp2019.Practice5.Navigation.Views.Authentication;
 using MainView = KMA.ProgrammingInCSharp2019.Practice5.Navigation.Views.MainView;
-using SignUpView = KMA.ProgrammingInCSharp2019.Practice5.Navigation.Views.Authentication.SignUpView;
 
 namespace KMA.ProgrammingInCSharp2019.Practice5.Navigation.Tools.Navigation
 {
@@ -16,13 +16,10 @@ namespace KMA.ProgrammingInCSharp2019.Practice5.Navigation.Tools.Navigation
         {
             switch (viewType)
             {
-                case ViewType.SignIn:
+                case ViewType.Start:
                     ViewsDictionary.Add(viewType,new SignInView());
                     break;
-                case ViewType.SignUp:
-                    ViewsDictionary.Add(viewType, new SignUpView());
-                    break;
-                case ViewType.Main:
+                case ViewType.Result:
                     ViewsDictionary.Add(viewType, new MainView());
                     break;
                 default:

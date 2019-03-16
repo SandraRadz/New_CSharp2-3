@@ -20,7 +20,7 @@ namespace KMA.ProgrammingInCSharp2019.Practice5.Navigation
             InitializeComponent();
             DataContext = new MainWindowViewModel();
             NavigationManager.Instance.Initialize(new InitializationNavigationModel(this));
-            NavigationManager.Instance.Navigate(ViewType.SignIn);
+            NavigationManager.Instance.Navigate(ViewType.Start);
         }
     }
 }

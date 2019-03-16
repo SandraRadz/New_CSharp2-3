@@ -3,7 +3,7 @@ using System.Text.RegularExpressions;
 
 namespace KMA.ProgrammingInCSharp2019.Practice5.Navigation.Models
 {
-    internal class Person
+    public class Person
     {
         private string _name;
         private string _lastName;
